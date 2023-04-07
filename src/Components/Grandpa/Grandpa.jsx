@@ -5,13 +5,14 @@ import './Grandpa.css'
 import Father from '../Father/Father';
 
 const Grandpa = () => {
+    const ring = 'diamond';
     return (
         <div className='grandpa'>
             <h2 style={{ textAlign: 'center' }}>GRANDPA</h2>
             <div className='flex'>
-                <Father></Father>
+                <Father ring={ring}></Father>
                 <Uncle></Uncle>
-                <Aunty></Aunty>
+                <Aunty ring={ring}></Aunty>
             </div>
         </div>
     );
