@@ -7,3 +7,46 @@
     position: sticky;
     top: 0;
 }
+
+#title{
+    margin-right: 22px;
+    text-align: center;
+}
+
+.orange{
+    background-color: orange;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.red{
+    background-color:red;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.yellow{
+    background-color: yellow;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+.bold{
+    font-weight: bold;
+}

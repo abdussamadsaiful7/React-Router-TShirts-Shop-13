@@ -13,11 +13,12 @@ const Cart = ({ cart, handleRemoveCart }) => {
     return (
         <div className='summary'>
 
-            <h2>Order summary: {cart.length}</h2>
+            <h2 id='title' className={cart.length === 1 ? 'red' : 'blue'}>Order summary: {cart.length}</h2>
+            <p className={`bold ${cart.length === 3 ? 'yellow': 'blue'}`}>Something</p>
             {/* //ternary: condition */}
             {
                 cart.length > 2 ?
-                    <span className=''>Thanks for your feedback!!!</span>
+                    <span className='green'>Thanks for your feedback!!!</span>
                     : <span>Welcome</span>
             }
             {message}
@@ -49,4 +50,6 @@ export default Cart;
  */
 /**
  * Conditional css class,
+ * use ternary
+ * ternary inside string, 
  */
