@@ -1,0 +1,9 @@
+.x-btn{
+    margin-left: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.summary{
+    position: sticky;
+    top: 0;
+}
