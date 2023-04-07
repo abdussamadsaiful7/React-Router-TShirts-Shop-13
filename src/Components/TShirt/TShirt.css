@@ -1,0 +1,24 @@
+.t-shirt-img{
+   margin-top: 10px;
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+   
+   
+}
+.t-shirt{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.btn{
+   padding: 4px; 
+   text-decoration: none;
+   background-color: blue;
+   color: white;
+   border: 1px solid blue;
+   border-radius: 3px;
+
+}
