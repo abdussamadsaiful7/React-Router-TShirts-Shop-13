@@ -1,11 +1,21 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import TShirt from '../TShirt/TShirt';
+import Cart from '../Cart/Cart';
+import './Home.css';
 
 const Home = () => {
-    const   tShirts = useLoaderData();
+    const tShirts = useLoaderData();
     return (
-        <div>
-            <h2>This is Home page: {tShirts.length}</h2>
+        <div className='home-container'>
+            <div className='t-shirt-container'>
+                {
+                    tShirts.map(tShirt => <TShirt key={tShirt._id} tShirt={tShirt}></TShirt>)
+                }
+            </div>
+            <div className='cart-container'>
+                <Cart></Cart>
+            </div>
         </div>
     );
 };

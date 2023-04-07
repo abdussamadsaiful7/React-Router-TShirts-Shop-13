@@ -10,11 +10,12 @@ nav a{
 .header{
     background-color: cadetblue;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size:large;
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
    
     
 }
